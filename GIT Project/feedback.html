@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luxury Autos</title>
+    <style>
+        body {
+            margin: 1px;
+            width: auto;
+            background-color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkgoldenrod;
+        }
+
+        #sec1 {
+            clear: both;
+            /* overflow: auto; */
+        }
+
+        #logo {
+            float: left;
+            margin-left: 5px;
+                              
+      }
+
+        #header {
+            float: left;
+            margin-left: 8px;                   
+        }
+
+        #nav {
+            clear: both;
+            overflow: auto;
+            margin-left: 16%;
+        }
+
+        #Home {
+            width: 5%;
+            float: left;
+            text-align: justify;
+            margin-right: 8px;
+            border-radius: 2px;
+            
+        }
+
+        #SUVs {
+            width: 5%;
+            float: left;
+            text-align: center;
+            margin-right: 2px;
+        }
+
+        #SEDANS {
+            width: 5%;
+            float: left;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        #TRUCKS {
+            width: 5%;
+            float: left;
+            text-align: center;
+            margin-right: 22px;
+        }
+
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: darkgoldenrod;
+            
+        }
+
+        #sec2 {
+            width: auto; 
+            margin: 2%;
+            color: beige;
+                
+        }
+
+
+
+        /* #sec3 { */
+            /* clear: both; */
+            /* overflow: auto; */
+        /* } */
+
+        .container{
+            position: relative;
+            text-align: center;
+            color: darkgoldenrod;
+            font-weight: bolder;
+            float: left;
+            margin-left: 8px;
+            /* margin-top: 100px; */
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            background-color: black;
+            padding: 5px;
+        }
+
+       
+        button {
+            background-color: bisque;
+            color: darkgoldenrod;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            border-radius: 5px;
+
+        }
+
+        
+
+        button:hover {
+            background-color: aquamarine;
+        }
+
+        #footer {
+            font-size: 1em;
+            width:auto;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkgoldenrod;
+            clear: both;
+            margin-bottom: 0%;
+            padding: 1px;
+            /* overflow: auto; */
+            text-align: right;
+            /* float: left; */
+           
+        }
+
+        p > a {
+            color: black;
+        }
+
+        .input {
+            /* padding: 0.5em 1em; */
+            clear: both;
+            overflow: auto;
+        }
+
+        .inputlabel {
+            width: 20%;
+            float: left;
+            margin-bottom: 20px;
+            margin-top: 20px;
+           
+        }
+
+        #feedback {
+            width:60%;
+            font-size: 1.5em;
+            float:right;
+            color: darkgoldenrod;
+            margin-left: 400px;
+            padding-bottom: 15px;
+        }
+
+        #comment > input {
+            padding-right: 150px;
+            padding-bottom: 80px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+
+        #buttons {
+            margin-top: 25px;
+        }
+           
+      
+    </style>
+</head>
+
+<body>
+
+   <div>
+     <div id="sec1">
+        <div id="logo"><img src="images/Random/logo (1).png" alt="logo" width="200" height="138"></div>
+        <div id="header"><img src="images/Random/collage1.jpg" Alt="Image of vehicles" width="560.5" height="138"></div>
+        <div id="header"><img src="images/Random/collage1.jpg" alt="vehicle image" width="560.5" height="138"></div>
+    </div>
+
+
+    <div id="nav">
+
+        <div id="Home"><button><a href="Luxury Autos.html">HOME</a></button></div>
+
+        <div id="SEDANS"><button><a href="Sedans.html">SEDANS</a></button></div>
+
+        <div id="SUVs"><button><a href="SUVs.html">SUVs</a></button></div>
+    </div>
+
+
+    <div id="feedback">
+
+        <div><h2>Tell us what you think</h2></div>
+        <div>Your email address will not be published.</div>
+        <div>Required field are marked*</div>
+
+        <form action="Acknowledgement.html" method="GET">
+            <div>
+                <div class="inputlabel">Comment*</div>
+                <div id="comment"><input type="text" name="comment" id="comment"></div>
+            </div>
+    
+            <div class="input">
+                <div class="inputlabel" >Name</div>
+                <div class="inputlabel"><input type="text" name="personName" id="fullName" placeholder="Enter your full name"></div>
+            </div>
+    
+            <div class="input">
+                <div class="inputlabel">Email</div>
+                <div class="inputlabel"><input type="email" name="emailAddress" id="email"  placeholder="name@somebody.com"></div>
+            </div>
+    
+           
+            <div class="input">
+                <div class="inputlabel">Remember Me</div>
+                <div class="inputlabel"><input type="checkbox" name="aknowledgement" id="button"  value="aknowledgement"></div>                
+            </div>
+    
+            <div id="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Refresh</button>
+            </div>
+
+        </form>   
+            
+    </div>
+
+    
+</div>     
+
+    <div>
+        <div>
+            <div class="container">
+                <img src="images/Random/SEDANS.jpg" width="440" height="220" alt="A Sedan">
+                <div class="bottom-left"><a href="Sedans.html">SEDANS</a></div>
+            </div>
+            <div class="container">
+                <img src="images/Random/SUVs.jpg" width="440" height="220" alt="An SUV">
+                <div class="bottom-left"><a href="SUVs.html">SUVs</a></div>
+            </div>
+            <div class="container">
+                <img src="images/Random/TRUCKS.jpg" width="440" height="220" alt="Truck">
+                <div class="bottom-left"><a href="Trucks.html">TRUCKS</a></div>
+            </div>
+        </div>
+
+      
+        <div id="footer">
+            <p><a href="feedback.html">Tell us what you think..</a></p>
+              
+        </div>
+
+    </div>
+    
+   
+  
+
+</body>
+
+</html>
